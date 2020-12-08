@@ -1,0 +1,25 @@
+body {
+  background: #e5e5e5;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+
+.header-color {
+  background: #ffffff;
+}
+
+.web-color {
+  color: #2196f3;
+}
+
+.phone-color {
+  color: #757575;
+  text-decoration: none;
+}
+.links {
+  color: #2196f3;
+}
