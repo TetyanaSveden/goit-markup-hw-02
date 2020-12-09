@@ -1,9 +1,18 @@
+:root {
+  --main-background-color: #ffffff;
+  --darck-background-color: #2f303a;
+}
+
 body {
-  background: #e5e5e5;
+  background: var(--main-background-color);
 }
 
 ul {
   list-style: none;
+}
+
+footer {
+  background: var(--darck-background-color);
 }
 
 /* header */
@@ -15,11 +24,75 @@ ul {
 .web-color {
   color: #2196f3;
 }
-
+.studio-color {
+  color: black;
+}
+.text-decor {
+  text-decoration: none;
+  width: 145px;
+  height: 31px;
+}
 .phone-color {
   color: #757575;
   text-decoration: none;
 }
-.links {
+.phone-color:hover {
   color: #2196f3;
+}
+
+.links {
+  color: #212121;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #2196f3;
+}
+
+/* footer */
+.logo-footer {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-web {
+  color: #2196f3;
+}
+
+.address-decor {
+  color: #ffffff;
+  font-style: none;
+  font-style: normal;
+}
+
+.footer-mail {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover {
+  color: #2196f3;
+}
+.footer-phone {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-phone:hover {
+  color: #2196f3;
+}
+
+/* main section */
+.main-section {
+  background-color: #2f303a;
+}
+
+.hedline {
+  font-family: Roboto;
+  font-style: normal;
+  color: #ffffff;
+}
+.order {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
 }
