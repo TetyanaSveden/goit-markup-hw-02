@@ -1,6 +1,10 @@
 :root {
   --main-background-color: #ffffff;
-  --darck-background-color: #2f303a;
+  --dark-background-color: #2f303a;
+
+  --text-color-white: #ffffff;
+  --text-color-dark: #212121;
+  --text-color-gray: #757575;
 }
 
 body {
@@ -12,7 +16,7 @@ ul {
 }
 
 footer {
-  background: var(--darck-background-color);
+  background: var(--dark-background-color);
 }
 
 /* header */
@@ -95,4 +99,19 @@ footer {
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
+}
+
+/* our servises */
+.text-color {
+  color: var(--text-color-gray);
+}
+
+/*  portfolio buttons  */
+.buttons {
+  color: var(--text-color-dark);
+}
+/* active пробовала поставить не работает почемуто */
+.buttons:hover {
+  color: var(--text-color-white);
+  background-color: #2196f3;
 }
