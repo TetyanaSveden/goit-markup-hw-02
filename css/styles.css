@@ -41,7 +41,8 @@ footer {
   color: #757575;
   text-decoration: none;
 }
-.phone-color:hover {
+.phone-color:hover,
+.phone-color:focus {
   color: #2196f3;
 }
 
@@ -50,7 +51,8 @@ footer {
   text-decoration: none;
 }
 
-.links:hover {
+.links:hover,
+.links:active {
   color: #2196f3;
 }
 
@@ -70,17 +72,13 @@ footer {
   font-style: normal;
 }
 
-.footer-mail {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer-mail:hover {
-  color: #2196f3;
-}
+.footer-mail,
 .footer-phone {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-mail:hover,
 .footer-phone:hover {
   color: #2196f3;
 }
@@ -94,6 +92,7 @@ footer {
   font-family: Roboto;
   font-style: normal;
   color: #ffffff;
+  text-transform: uppercase;
 }
 .order {
   color: #ffffff;
@@ -113,7 +112,8 @@ footer {
   color: var(--text-color-dark);
 }
 /* active пробовала поставить не работает почемуто */
-.buttons:hover {
+.buttons:hover,
+.buttons:active {
   color: var(--text-color-white);
   background-color: #2196f3;
 }
