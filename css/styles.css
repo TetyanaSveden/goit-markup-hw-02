@@ -107,7 +107,9 @@ footer {
 }
 
 .footer-mail:hover,
-.footer-mail:focus,
+.footer-mail:focus {
+  color: #2196f3;
+}
 .footer-phone:hover,
 .footer-phone:focus {
   color: #2196f3;
