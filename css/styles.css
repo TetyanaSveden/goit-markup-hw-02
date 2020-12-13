@@ -1,16 +1,21 @@
 :root {
   --main-background-color: #ffffff;
   --dark-background-color: #2f303a;
+  --blue-light-color: #2196f3;
 
   --text-color-white: #ffffff;
   --text-color-dark: #212121;
   --text-color-gray: #757575;
-
-  --font-family: Roboto;
+  --text-color-lightblue: #2196f3;
+  --text-color-black: #000000;
 }
 
 body {
   background: var(--main-background-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -21,176 +26,144 @@ footer {
   background: var(--dark-background-color);
 }
 
+nav .links.current {
+  color: var(--blue-light-color);
+}
+
 /* header */
 
 .header-color {
-  background: #ffffff;
+  background: var(--main-background-color);
 }
+
 /*logo*/
 .web-color {
-  color: #2196f3;
+  color: var(--text-color-lightblue);
 }
 .studio-color {
-  color: black;
+  color: var(--text-color-black);
 }
 .text-decor {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
-  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
 }
 /* contacts */
 .phone-color {
   color: var(--text-color-gray);
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
 .phone-color:hover,
 .phone-color:focus {
-  color: #2196f3;
+  color: var(--text-color-lightblue);
 }
 
 .links {
-  color: #212121;
+  color: var(--text-color-dark);
   text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .links:hover,
 .links:focus {
-  color: #2196f3;
+  color: var(--text-color-lightblue);
 }
 
 /* footer */
 .logo-footer {
   font-family: "Raleway", sans-serif;
-  color: #ffffff;
+  color: var(--main-background-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .footer-web {
-  color: #2196f3;
+  color: var(--text-color-lightblue);
 }
 
 .address-decor {
-  color: #ffffff;
-  font-family: Roboto;
-  font-style: none;
+  color: var(--text-color-white);
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .footer-mail,
 .footer-phone {
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-mail:hover,
 .footer-mail:focus {
-  color: #2196f3;
+  color: var(--text-color-lightblue);
 }
+
 .footer-phone:hover,
 .footer-phone:focus {
-  color: #2196f3;
+  color: var(--text-color-lightblue);
 }
 
 /* main section */
 .main-section {
-  background-color: #2f303a;
+  background-color: var(--dark-background-color);
 }
 
 .hedline {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--text-color-white);
   text-transform: uppercase;
 }
 .order {
-  color: #ffffff;
-  font-family: Roboto;
-  font-style: normal;
+  color: var(--text-color-white);
+  background-color: var(--blue-light-color);
   font-weight: bold;
-  text-decoration: none;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  border: none;
 }
 
 /* our servises */
 .text-color {
   color: var(--text-color-gray);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .ourquality {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 /* what do we do */
 .whatwedo {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /*  our collegues  */
 .names {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
 }
 .occupation {
   color: var(--text-color-gray);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  letter-spacing: 0.03em;
 }
 
 /*  portfolio buttons  */
@@ -201,11 +174,9 @@ footer {
 .buttons:hover,
 .buttons:focus {
   color: var(--text-color-white);
-  background-color: #2196f3;
+  background-color: var(--text-color-lightblue);
 }
 .supply-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
@@ -214,10 +185,12 @@ footer {
 
 .portfolio-text-color {
   color: var(--text-color-gray);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1, 87;
-  letter-spacing: 0.03em;
+  line-height: 1.87;
+}
+/* portfolio links */
+.lidecor {
+  text-decoration: none;
+  color: var(--text-color-dark);
 }
