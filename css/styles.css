@@ -3,17 +3,19 @@
   --dark-background-color: #2f303a;
   --blue-light-color: #2196f3;
 
-  --text-color-white: #ffffff;
+  --text-color-white: var(--main-background-color);
   --text-color-dark: #212121;
   --text-color-gray: #757575;
   --text-color-lightblue: #2196f3;
   --text-color-black: #000000;
+  --text-color-grey-through: rgba(255, 255, 255, 0.6);
 }
 
 body {
   background: var(--main-background-color);
   font-family: Roboto;
   font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -98,7 +100,7 @@ nav .links.current {
 .footer-mail,
 .footer-phone {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-color-grey-through);
 }
 
 .footer-mail:hover,
@@ -138,7 +140,7 @@ nav .links.current {
 /* our servises */
 .text-color {
   color: var(--text-color-gray);
-  font-weight: normal;
+
   line-height: 1.71;
 }
 .ourquality {
@@ -161,7 +163,6 @@ nav .links.current {
 }
 .occupation {
   color: var(--text-color-gray);
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
 }
@@ -185,7 +186,6 @@ nav .links.current {
 
 .portfolio-text-color {
   color: var(--text-color-gray);
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
 }
